@@ -43,6 +43,7 @@ header {
 
 #search {
   display: flex;
+  justify-content: center;
   background-color: #e4e4e4;
   height: 14%;
   box-shadow: inset 0 7px 7px -7px rgba(0, 0, 0, 0.4);
@@ -50,7 +51,7 @@ header {
 
 #searchIcon {
   width: 0.8em;
-  margin: 0 1.5em 0 7em;
+  margin: 0 1.5em 0 2em;
   padding-top: 0.2em;
 }
 
@@ -106,6 +107,7 @@ input {
 .functions {
   background-color: #F2F2F2;
   display: flex;
+  position: relative;
   height: 16%;
   width: 88%;
   margin: auto;
@@ -138,8 +140,9 @@ input {
   position: absolute;
   font-size: 0.8em;
   padding-top: 0.3em;
-  margin-top: 1.5em;
-  margin-left: 3.7%;
+  top: 20px;
+  left: -10px;
+  padding-top: 0.4em;
 }
 
 #numberFunction2 {
@@ -152,8 +155,8 @@ input {
   position: absolute;
   font-size: 0.8em;
   padding-top: 0.3em;
-  margin-top: 8.5em;
-  margin-left: 3.7%;
+  top: 20px;
+  left: -10px;
 }
 
 #numberFunction3 {
@@ -166,8 +169,8 @@ input {
   position: absolute;
   font-size: 0.8em;
   padding-top: 0.3em;
-  margin-top: 15.4em;
-  margin-left: 3.7%;
+  top: 20px;
+  left: -10px;
 }
 
 section {
@@ -182,6 +185,7 @@ section {
 
 .results {
   display: block;
+  position: relative;
   height: 21%;
   width: 90%;
   background-color: white;
@@ -208,7 +212,8 @@ section {
   position: absolute;
   text-align: center;
   padding-top: 0.7em;
-  margin: 3% 0 0 67%;
+  top: 10px;
+  right: 10px;
 }
 
 .resultsText {
