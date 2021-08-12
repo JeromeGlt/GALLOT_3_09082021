@@ -47,13 +47,14 @@ header {
 }
 #search {
     display: flex;
+    justify-content: center;
     background-color: $medium_grey;
     height: 14%;
     box-shadow: inset 0 7px 7px -7px rgba(0,0,0,0.4);
 }
 #searchIcon {
     width: 0.8em;
-    margin: 0 1.5em 0 7em;
+    margin: 0 1.5em 0 2em;
     padding-top: 0.2em;
 }
 .bold {
@@ -100,6 +101,7 @@ input {
 .functions {
     background-color: $light_grey;
     display: flex;
+    position: relative;
     height: 16%;
     width: 88%;
     margin: auto;
@@ -128,21 +130,18 @@ input {
     position: absolute;
     font-size: 0.8em;
     padding-top: 0.3em;
+    top: 20px;
+    left: -10px;
 }
 #numberFunction1 {
     @include numberFunction();
-    margin-top: 1.5em;
-    margin-left: 3.7%;
+    padding-top: 0.4em;
 }
 #numberFunction2 {
     @include numberFunction();
-    margin-top: 8.5em;
-    margin-left: 3.7%;
 }
 #numberFunction3 {
     @include numberFunction();
-    margin-top: 15.4em;
-    margin-left: 3.7%;
 }
 section {
     height: 54%;
@@ -154,12 +153,15 @@ section {
 }
 .results {
     display: block;
+    position: relative;
     height: 21%;
     width: 90%;
     background-color: white;
     margin: 0 auto 1.5em auto;
     border-radius: 1em;
     box-shadow: 0 5px 7px rgba(0,0,0,0.2);
+    text-decoration: none;
+    color: black;
 }
 .imagesResults {
     height: 70%;
@@ -176,7 +178,8 @@ section {
     position: absolute;
     text-align: center;
     padding-top: 0.7em;
-    margin: 3% 0 0 67%;
+    top: 10px;
+    right: 10px;
 }
 .resultsText {
     display: flex;
@@ -234,4 +237,104 @@ footer {
 #contact {
     text-decoration: none;
     color: white;
+}
+@media only screen and (min-width: 751px) and (max-width: 1279px)
+{
+    body {
+        height: 1550px;
+    }
+    header {
+        height: 4%;
+    }
+    #navigation {
+        height: 20%;
+    }
+    #functioning {
+        display: flex;
+        flex-wrap: wrap;
+        height: 17%;
+    }
+    #functioningTitle {
+        margin: 1em 25em 1em 0.8em;
+    }
+    .functions {
+        width: 40%;
+        height: 25%;
+    }
+    #restaurants {
+        display: flex;
+        flex-wrap: wrap;
+        height: 45%;
+    }
+    #restaurantsTitle {
+        margin: 0 30em 1em 1em;
+    }
+    .results {
+        max-width: 45%;
+        height: 35%;
+    }
+    footer {
+        display: flex;
+        height: 14%;
+    }
+    #whiteLogo {
+        max-width: 9em;
+        margin-bottom: 1em;
+    }
+    #responsiveDesktop {
+        width: 40%;
+    }
+    #responsiveDesktopContact {
+        margin-top: 3.3em;
+    }
+}
+@media only screen and (min-width: 1280px)
+{
+    body {
+        height: 1500px;
+    }
+    header {
+        height: 4%;
+    }
+    #navigation {
+        height: 20%;
+    }
+    #functioning {
+        display: flex;
+        flex-wrap: wrap;
+        height: 10%;
+    }
+    #functioningTitle {
+        margin: 1em 0 1em 1em;
+    }
+    .functions {
+        width: 25%;
+        height: 42%;
+    }
+    #restaurants {
+        display: flex;
+        flex-wrap: wrap;
+        height: 50%;
+    }
+    #restaurantsTitle {
+        margin-right: 80em;
+    }
+    .results {
+        width: 30%;
+        height: 40%;
+    }
+    footer {
+        display: flex;
+        height: 16%;
+    }
+    #whiteLogo {
+        max-width: 10em;
+        margin-bottom: 1em;
+    }
+    #responsiveDesktop {
+        width: 25%;
+    }
+    #responsiveDesktopContact {
+        margin-top: 3.5em;
+    }
 }
