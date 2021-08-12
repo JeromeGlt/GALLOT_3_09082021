@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "shrikhand";
+  src: url(police/Shrikhand/Shrikhand-Regular.ttf);
+}
+@font-face {
+  font-family: "roboto_bold";
+  src: url(police/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "roboto_regular";
+  src: url(police/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "roboto_light";
+  src: url(police/Roboto/Roboto-Light.ttf);
+}
+body {
+  font-family: roboto_regular;
+  width: 100vw;
+  height: 1800px;
+}
+
+header {
+  display: flex;
+  height: 3%;
+}
+
+#arrow {
+  width: 1.3em;
+  margin: 0.8em 0 0 2em;
+}
+
+#logo {
+  width: 13em;
+  margin-left: 13%;
+}
+
+#container {
+  height: 85%;
+  background-color: #F2F2F2;
+}
+
+#photo {
+  width: 100%;
+  height: 20%;
+  object-fit: cover;
+  position: relative;
+}
+
+#menu {
+  background-color: #F2F2F2;
+  position: absolute;
+  width: 100%;
+  border-radius: 3em 3em 0 0;
+  top: 45%;
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  font-family: shrikhand;
+  margin: 1em 3em 0 0.6em;
+  font-size: 1.9em;
+}
+
+.heart {
+  align-self: flex-end;
+  position: absolute;
+  display: flex;
+  width: 1.6em;
+  margin: 2.4em 2.5em 0 0;
+}
+.heart:hover .emptyHeart {
+  display: none;
+}
+.heart:hover .solidHeart {
+  display: block;
+}
+
+.emptyHeart {
+  width: 1.6em;
+}
+
+.solidHeart {
+  width: 1.6em;
+}
+
+.hidden {
+  display: none;
+}
+
+.bold {
+  font-family: roboto_bold;
+}
+
+.nameMenu {
+  height: 5%;
+  margin: 2.5em 0 1em 1em;
+}
+
+.greenLine {
+  background-color: #99E2D0;
+  width: 10%;
+  height: 2px;
+  margin-top: 0.3em;
+}
+
+.light {
+  font-family: roboto_light;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sized {
+  font-size: 1.2em;
+}
+
+.course {
+  width: 95%;
+  background-color: white;
+  border-radius: 1em;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  margin: 0 auto 1em auto;
+  padding: 0.8em 0 0.8em 0.8em;
+  line-height: 1.5em;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  margin: 0 1.5em 0 2em;
+}
+
+#button {
+  display: block;
+  margin: 4em auto 0 auto;
+  text-align: center;
+  width: 14em;
+  height: 3.2em;
+  border-radius: 20em;
+  padding-top: 1em;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to top left, #9356DC, #FF79DA);
+}
+
+footer {
+  height: 12%;
+  background-color: #302f2f;
+  color: white;
+  line-height: 2em;
+  padding: 1.8em 0 0 1.8em;
+}
+
+#whiteLogo {
+  max-width: 7em;
+  margin-bottom: 0.5em;
+}
+
+.footerFlex {
+  display: flex;
+}
+
+#utensils {
+  max-width: 0.7em;
+  margin-right: 0.8em;
+  padding-bottom: 0.1em;
+}
+
+#hands {
+  max-width: 1em;
+  margin-right: 0.6em;
+}
+
+#contact {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=palette.css.map */
