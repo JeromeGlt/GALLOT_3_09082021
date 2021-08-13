@@ -9,84 +9,92 @@
 </head>
 
 <body>
+    <div class="total">
+        <div class="loadingSpinner">
+            <div class="loadingSpinner__item item_1"><img src="images/icons/cheese-solid-white.svg" alt="cheese" class="icon"/></div>
+            <div class="loadingSpinner__item item_2"><img src="images/icons/utensils-solid-white.svg" alt="utensils" class="icon"/></div>
+            <div class="loadingSpinner__item item_3"><img src="images/icons/wine-glass-solid-white.svg" alt="glass" class="icon"/></div>
+            <div class="loadingSpinner__item item_4"><img src="images/icons/chart-pie-white.svg" alt="pie" class="icon"/></div>
+        </div>
+    </div>
     <header>
         <img src="images/logo/ohmyfood@2x.svg" alt="Ohmyfood" id="logo"/>
     </header>
     <nav id="navigation">
-        <div id="search">
+        <div id="navigation__search">
                 <img src="images/icons/map_marker.svg" alt="searchIcon" id="searchIcon"/>
                 <input type="text" value="Paris, Belleville" name="locationSearch" class="bold"/>
         </div>
-        <div id="navigationText">
-            <p class="bold" id="reserve">Réservez le menu qui vous convient</p>
-            <p id="presentation">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+        <div id="navigation__text">
+            <p class="bold" id="navigation__text__reserve">Réservez le menu qui vous convient</p>
+            <p id="navigation__text__presentation">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
             <a href="#restaurantsTitle" id="exploreButton">Explorer nos restaurants</a>
         </div>
     </nav>
-    <div id="functioning">
-        <h2 id="functioningTitle">Fonctionnement</h2>
+    <div class="functioning">
+        <h2 class="functioning__title">Fonctionnement</h2>
         <div class="functions">
-            <div id="numberFunction1">1</div>
+            <div class="functions__number1">1</div>
             <img src="images/icons/mobile-alt-solid.svg" alt="icon_mobile" id="mobileIcon"/>
-            <p class="functionsText bold">Choisissez un restaurant</p>
+            <p class="functions__text bold">Choisissez un restaurant</p>
         </div>
         <div class="functions">
-            <div id="numberFunction2">2</div>
-            <img src="images/icons/list-ul-solid.svg" alt="icon_list" class="functionsIcons"/>
-            <p class="functionsText bold">Composez votre menu</p>
+            <div class="functions__number2">2</div>
+            <img src="images/icons/list-ul-solid.svg" alt="icon_list" class="functions__icons"/>
+            <p class="functions__text bold">Composez votre menu</p>
         </div>
         <div class="functions">
-            <div id="numberFunction3">3</div>
-            <img src="images/icons/store-solid.svg" alt="icon_store" class="functionsIcons"/>
-            <p class="functionsText bold">Dégustez au restaurant</p>
+            <div class="functions__number3">3</div>
+            <img src="images/icons/store-solid.svg" alt="icon_store" class="functions__icons"/>
+            <p class="functions__text bold">Dégustez au restaurant</p>
         </div>
     </div>
 
-    <section id="restaurants">
-        <h2 id="restaurantsTitle">Restaurants</h2>
-        <a href="palette.html" class="results">
+    <section class="restaurants">
+        <h2 class="restaurants__title">Restaurants</h2>
+        <a href="palette.html" class="restaurants__results">
             <div class="new"><p class="bold">Nouveau</p></div>
-            <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût" class="imagesResults"/>
-            <div class="resultsText">
+            <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût" class="restaurants__results__images"/>
+            <div class="restaurants__results__text">
                 <p class="bold">La Palette du goût</p>
                 <p>Ménilmontant</p>
                 <div class="heart">
-                    <img src="images/icons/heart-regular.svg" alt="icon_heart" class="emptyHeart"/>
-                    <img src="images/icons/heart-solid.svg" alt="icon_heart" class="hidden solidHeart"/>
+                    <img src="images/icons/heart-regular.svg" alt="icon_heart" class="heart__empty"/>
+                    <img src="images/icons/heart-solid.svg" alt="icon_heart" class="hidden heart__solid"/>
                 </div>
             </div>
         </a>
-        <a href="note.html" class="results">
+        <a href="note.html" class="restaurants__results">
             <div class="new"><p class="bold">Nouveau</p></div>
-            <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée" class="imagesResults"/>
-            <div class="resultsText">
+            <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée" class="restaurants__results__images"/>
+            <div class="restaurants__results__text">
                 <p class="bold">La note enchantée</p>
                 <p>Charonne</p>
                 <div class="heart">
-                    <img src="images/icons/heart-regular.svg" alt="icon_heart" class="emptyHeart"/>
-                    <img src="images/icons/heart-solid.svg" alt="icon_heart" class="hidden solidHeart"/>
+                    <img src="images/icons/heart-regular.svg" alt="icon_heart" class="heart__empty"/>
+                    <img src="images/icons/heart-solid.svg" alt="icon_heart" class="hidden heart__solid"/>
                 </div>
             </div>
         </a>
-        <a href="francaise.html" class="results">
-            <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française" class="imagesResults"/>
-            <div class="resultsText">
+        <a href="francaise.html" class="restaurants__results">
+            <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française" class="restaurants__results__images"/>
+            <div class="restaurants__results__text">
                 <p class="bold">À la française</p>
                 <p>Cité rouge</p>
                 <div class="heart">
-                    <img src="images/icons/heart-regular.svg" alt="icon_heart" class="emptyHeart"/>
-                    <img src="images/icons/heart-solid.svg" alt="icon_heart" class="hidden solidHeart"/>
+                    <img src="images/icons/heart-regular.svg" alt="icon_heart" class="heart__empty"/>
+                    <img src="images/icons/heart-solid.svg" alt="icon_heart" class="hidden heart__solid"/>
                 </div>
             </div>
         </a>
-        <a href="delice.html" class="results">
-            <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens" class="imagesResults"/>
-            <div class="resultsText">
+        <a href="delice.html" class="restaurants__results">
+            <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens" class="restaurants__results__images"/>
+            <div class="restaurants__results__text">
                 <p class="bold">Le délice des sens</p>
                 <p>Folie-Méricourt</p>
                 <div class="heart">
-                    <img src="images/icons/heart-regular.svg" alt="icon_heart" class="emptyHeart"/>
-                    <img src="images/icons/heart-solid.svg" alt="icon_heart" class="hidden solidHeart"/>
+                    <img src="images/icons/heart-regular.svg" alt="icon_heart" class="heart__empty"/>
+                    <img src="images/icons/heart-solid.svg" alt="icon_heart" class="hidden heart__solid"/>
                 </div>
             </div>
         </a>
