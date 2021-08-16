@@ -28,10 +28,17 @@ $tertiary_color: #99E2D0;
     position: absolute;
     z-index: 1;
 }
-.loadingSpinner {
+@mixin placement {
     position: absolute;
-    left: 700px;
-    top: 300px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.loadingSpinner {
+    @include placement;
+    position: fixed;
     width: 200px;
     height: 200px;
     &__item {
@@ -41,12 +48,7 @@ $tertiary_color: #99E2D0;
     }
 }
 .icon {
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    @include placement;
     width: 75px;
     height: 75px;
 }
@@ -118,6 +120,7 @@ body
 {
     font-family: roboto_regular;
     width: 100vw;
+    height: 2225px;
 }
 header {
     height: 3%;
