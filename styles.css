@@ -296,7 +296,6 @@ input {
   padding-top: 0.3em;
   top: 20px;
   left: -10px;
-<<<<<<< HEAD
 }
 .functions__text {
   margin-top: 1.5em;
@@ -304,8 +303,6 @@ input {
 .functions__icons {
   width: 1em;
   margin: 0 1.2em 0 2em;
-=======
->>>>>>> master
 }
 
 #mobileIcon {
@@ -426,13 +423,10 @@ footer {
     height: 1550px;
   }
 
-<<<<<<< HEAD
   .total {
     height: 215%;
   }
 
-=======
->>>>>>> master
   header {
     height: 4%;
   }
@@ -441,21 +435,12 @@ footer {
     height: 20%;
   }
 
-<<<<<<< HEAD
   .functioning {
-=======
-  #functioning {
->>>>>>> master
     display: flex;
     flex-wrap: wrap;
     height: 17%;
   }
-<<<<<<< HEAD
   .functioning__title {
-=======
-
-  #functioningTitle {
->>>>>>> master
     margin: 1em 25em 1em 0.8em;
   }
 
@@ -464,28 +449,15 @@ footer {
     height: 25%;
   }
 
-<<<<<<< HEAD
   .restaurants {
-=======
-  #restaurants {
->>>>>>> master
     display: flex;
     flex-wrap: wrap;
     height: 45%;
   }
-<<<<<<< HEAD
   .restaurants__title {
     margin: 0 30em 1em 1em;
   }
   .restaurants__results {
-=======
-
-  #restaurantsTitle {
-    margin: 0 30em 1em 1em;
-  }
-
-  .results {
->>>>>>> master
     max-width: 45%;
     height: 35%;
   }
@@ -513,13 +485,10 @@ footer {
     height: 1500px;
   }
 
-<<<<<<< HEAD
   .total {
     height: 208%;
   }
 
-=======
->>>>>>> master
   header {
     height: 4%;
   }
@@ -528,23 +497,13 @@ footer {
     height: 20%;
   }
 
-<<<<<<< HEAD
   .functioning {
-=======
-  #functioning {
->>>>>>> master
     display: flex;
     flex-wrap: wrap;
     height: 10%;
   }
-<<<<<<< HEAD
   .functioning__title {
     margin: 1em 0 0 1em;
-=======
-
-  #functioningTitle {
-    margin: 1em 0 1em 1em;
->>>>>>> master
   }
 
   .functions {
@@ -552,28 +511,15 @@ footer {
     height: 42%;
   }
 
-<<<<<<< HEAD
   .restaurants {
-=======
-  #restaurants {
->>>>>>> master
     display: flex;
     flex-wrap: wrap;
     height: 50%;
   }
-<<<<<<< HEAD
   .restaurants__title {
     margin-right: 80em;
   }
   .restaurants__results {
-=======
-
-  #restaurantsTitle {
-    margin-right: 80em;
-  }
-
-  .results {
->>>>>>> master
     width: 30%;
     height: 40%;
   }
