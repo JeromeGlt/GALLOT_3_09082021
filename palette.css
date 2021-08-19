@@ -317,7 +317,6 @@ footer {
   }
   .course:hover {
     padding-right: 10%;
-    transition: padding-right 300ms linear;
   }
 
   footer {
@@ -373,7 +372,6 @@ footer {
   }
   .course:hover {
     padding-right: 5%;
-    transition: padding-right 300ms linear;
   }
 
   footer {
