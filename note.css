@@ -160,7 +160,7 @@ header {
   line-height: 1.5em;
   z-index: 1;
   position: relative;
-  transition: padding-right(0);
+  transition: padding-right;
   transition: padding-right 300ms linear;
 }
 .course::before {
