@@ -304,10 +304,47 @@ input {
   width: 1em;
   margin: 0 1.2em 0 2em;
 }
+.functions:hover::after {
+  opacity: 0.1;
+}
+.functions:hover .mobileIcon {
+  display: none;
+}
+.functions:hover .mobileIconColor {
+  display: block;
+}
+.functions:hover .functions__icons {
+  display: none;
+}
+.functions:hover .functions__iconsColor {
+  display: block;
+}
+.functions::after {
+  content: "";
+  border-radius: 1em;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: opacity 250ms;
+  background-color: #9356DC;
+}
 
-#mobileIcon {
+.mobileIcon {
   width: 0.7em;
   margin: 0 1.5em 0 2em;
+}
+
+.mobileIconColor {
+  width: 0.7em;
+  margin: 0 1.5em 0 2em;
+}
+
+.functions__iconsColor {
+  width: 1em;
+  margin: 0 1.2em 0 2em;
 }
 
 .restaurants {

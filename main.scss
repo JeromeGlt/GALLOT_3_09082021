@@ -246,10 +246,47 @@ input {
         width: 1em;
         margin: 0 1.2em 0 2em;
     }
+    &:hover {
+        &::after {
+            opacity: 0.1;
+        }
+        & .mobileIcon {
+            display: none;
+        }
+        & .mobileIconColor {
+            display: block;
+        }
+        & .functions__icons {
+            display: none;
+        }
+        & .functions__iconsColor {
+            display: block;
+        }
+    }
+    &::after {
+        content: "";
+        border-radius: 1em;
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transition: opacity 250ms;
+        background-color: $primary_color;
+    }
 }
-#mobileIcon {
+.mobileIcon {
     width: 0.7em;
     margin: 0 1.5em 0 2em;
+}
+.mobileIconColor {
+    width: 0.7em;
+    margin: 0 1.5em 0 2em;
+}
+.functions__iconsColor {
+    width: 1em;
+    margin: 0 1.2em 0 2em;
 }
 .restaurants {
     height: 54%;
